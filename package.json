@@ -1,0 +1,25 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ang Kosal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0"
+  },
+  "build": {
+    "appId": "khmernokor.texteditor",
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  }
+}
